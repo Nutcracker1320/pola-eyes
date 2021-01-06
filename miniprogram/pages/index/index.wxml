@@ -59,6 +59,21 @@
 <!-- </view> -->
 
 
-<view>
-  <button style='width:100px; height:40px; background:#438bef' bindtap='browse'>Photo</button>
+
+  <button style='width:200px; height:40px; background:#438bef' bindtap='browse'>Take Photo</button>
+
+
+
+<view class="list">
+  <view class="list-item" bindtap="testCgi">
+    <text class="black">上传成功</text>
+  </view>
+  <view class="list-item">
+    <text class="request-text">文件 ID：{{fileID}}</text>
+  </view>
+  <view class="list-item">
+    <image class="image1" src="{{imagePath}}" mode="aspectFit"></image>
+  </view>
 </view>
+
+
