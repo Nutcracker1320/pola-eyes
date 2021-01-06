@@ -1,8 +1,8 @@
 <!--index.wxml-->
-<!-- <view class="container">
+<!-- <view class="container"> -->
 
 
-  <view class="userinfo">
+  <!-- <view class="userinfo">
     <button 
       open-type="getUserInfo" 
       bindgetuserinfo="onGetUserInfo"
@@ -24,11 +24,11 @@
     <view class="uploader-container" wx:if="{{imgUrl}}">
       <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
     </view>
-  </view>
+  </view> -->
 
 
 
-  <view class="uploader">
+  <!-- <view class="uploader">
     <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">
       <text>前端操作数据库</text>
     </navigator>
@@ -53,10 +53,10 @@
     <navigator url="../openapi/openapi" open-type="navigate" class="uploader-text">
       <text>云调用</text>
     </navigator>
-  </view>
+  </view> -->
 
 
-</view> -->
+<!-- </view> -->
 
 
 <view>
