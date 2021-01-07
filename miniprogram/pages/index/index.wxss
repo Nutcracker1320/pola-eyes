@@ -151,3 +151,9 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+.Ttest {
+
+  display: flex;
+  flex-direction: column-reverse;
+}
